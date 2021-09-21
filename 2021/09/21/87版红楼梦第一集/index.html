@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="c++, study, effective_modern_c++," />
+  <meta name="keywords" content="红楼梦 非技术," />
 
 
 
@@ -79,17 +79,17 @@
 
 
 
-<meta name="description" content="开个坑，给effective modern c++做一波笔记 绪论 移动语义：区分左值和右值  左值：指的是可指涉的对象，指涉的途径无论是名字，指针，还是左值引用都可以  右值：指的是函数返回的临时对象  右值饮用运算符： T&amp;&amp;  二者最大的区别就在于，右值可以对其实施移动语义，而左值不能；左值能取到地址，而右值取不到具体的地址；通常可以用是否能取到地址来区分左值和右值  日用的">
+<meta name="description" content="中午吃饭不知道看什么，打开87版红楼梦重温一下，随着年岁渐长，历事越多，能观察到的细节也更多了。 首先是结构，电视剧受限于篇幅，第一集浓缩了原著中前三四章的内容。前半段以贾雨村的视角呈现，给大家展示了三个不同层次的家庭生活。首先是甄士隐家，属于家境殷实的小乡绅，业余爱好是养养花，逗逗孩子，逛街时给人发点钱，听两句“甄老爷人真好”的赞美。家里有几个仆人，中秋夜宴吃蟹喝酒，可以送出五十两纹银给贾雨村上">
 <meta property="og:type" content="article">
-<meta property="og:title" content="effective_modern_c++(0)_绪论">
-<meta property="og:url" content="http://example.com/2021/09/15/effective-modern-c-0-%E7%BB%AA%E8%AE%BA/index.html">
+<meta property="og:title" content="87版红楼梦第一集">
+<meta property="og:url" content="http://example.com/2021/09/21/87%E7%89%88%E7%BA%A2%E6%A5%BC%E6%A2%A6%E7%AC%AC%E4%B8%80%E9%9B%86/index.html">
 <meta property="og:site_name" content="cosimo&#39;s blog">
-<meta property="og:description" content="开个坑，给effective modern c++做一波笔记 绪论 移动语义：区分左值和右值  左值：指的是可指涉的对象，指涉的途径无论是名字，指针，还是左值引用都可以  右值：指的是函数返回的临时对象  右值饮用运算符： T&amp;&amp;  二者最大的区别就在于，右值可以对其实施移动语义，而左值不能；左值能取到地址，而右值取不到具体的地址；通常可以用是否能取到地址来区分左值和右值  日用的">
+<meta property="og:description" content="中午吃饭不知道看什么，打开87版红楼梦重温一下，随着年岁渐长，历事越多，能观察到的细节也更多了。 首先是结构，电视剧受限于篇幅，第一集浓缩了原著中前三四章的内容。前半段以贾雨村的视角呈现，给大家展示了三个不同层次的家庭生活。首先是甄士隐家，属于家境殷实的小乡绅，业余爱好是养养花，逗逗孩子，逛街时给人发点钱，听两句“甄老爷人真好”的赞美。家里有几个仆人，中秋夜宴吃蟹喝酒，可以送出五十两纹银给贾雨村上">
 <meta property="og:locale">
-<meta property="article:published_time" content="2021-09-14T16:32:39.000Z">
-<meta property="article:modified_time" content="2021-09-14T16:33:58.090Z">
+<meta property="article:published_time" content="2021-09-21T05:19:05.000Z">
+<meta property="article:modified_time" content="2021-09-21T09:02:53.319Z">
 <meta property="article:author" content="cosimo chen">
-<meta property="article:tag" content="c++, study, effective_modern_c++">
+<meta property="article:tag" content="红楼梦 非技术">
 <meta name="twitter:card" content="summary">
 
 
@@ -120,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://example.com/2021/09/15/effective-modern-c-0-绪论/"/>
+  <link rel="canonical" href="http://example.com/2021/09/21/87版红楼梦第一集/"/>
 
 
 
 
 
-  <title>effective_modern_c++(0)_绪论 | cosimo's blog</title>
+  <title>87版红楼梦第一集 | cosimo's blog</title>
   
 
 
@@ -233,7 +233,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/09/15/effective-modern-c-0-%E7%BB%AA%E8%AE%BA/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/09/21/87%E7%89%88%E7%BA%A2%E6%A5%BC%E6%A2%A6%E7%AC%AC%E4%B8%80%E9%9B%86/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="">
@@ -250,7 +250,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">effective_modern_c++(0)_绪论</h1>
+          <h1 class="post-title" itemprop="name headline">87版红楼梦第一集</h1>
         
 
         <div class="post-meta">
@@ -262,8 +262,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2021-09-15T00:32:39+08:00">
-                2021-09-15
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2021-09-21T13:19:05+08:00">
+                2021-09-21
               </time>
             
 
@@ -300,57 +300,18 @@
       
 
       
-        <p>开个坑，给effective modern c++做一波笔记</p>
-<h2 id="绪论"><a href="#绪论" class="headerlink" title="绪论"></a>绪论</h2><ul>
-<li><p><a target="_blank" rel="noopener" href="http://c.biancheng.net/view/7847.html">移动语义</a>：区分左值和右值</p>
-<ul>
-<li><p>左值：指的是可指涉的对象，指涉的途径无论是名字，指针，还是左值引用都可以</p>
-</li>
-<li><p>右值：指的是函数返回的临时对象</p>
-</li>
-<li><p>右值饮用运算符： T&amp;&amp;</p>
-</li>
-<li><p>二者最大的区别就在于，右值可以对其实施移动语义，而左值不能；左值能取到地址，而右值取不到具体的地址；通常可以用是否能取到地址来区分左值和右值</p>
-</li>
-<li><p>日用的<a target="_blank" rel="noopener" href="http://c.biancheng.net/view/7847.html">移动构造函数</a>，就是通过右值引用来完成的；如果想使用左值来移动构造，就要用到std::move()</p>
-</li>
-<li><p>值得注意的是：</p>
-<ul>
-<li><p>右值引用类型的形参，其本身是个左值，并且任何形参都是左值</p>
-</li>
-<li><pre><code>class Widget &#123;
-public:
-    Widget(Widget&amp;&amp; rhs);    //这里的rhs看似是个右值引用类型，但其实是个左值
-    ...
-&#125;;
-</code></pre>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p>异常安全：至少会提供基本异常安全保证</p>
-<ul>
-<li>基本保证：确保即使有异常抛出，不会有数据结构被破坏，也不会发生资源泄漏</li>
-<li>强异常安全保证：确保即便有异常抛出，程序状态在调用前后保持不变</li>
-</ul>
-</li>
-<li><p>函数对象：指支持operator()成员函数的对象，其表现得像个函数</p>
-</li>
-<li><p>声明和定义</p>
-<ul>
-<li>声明：引入名字和类别</li>
-<li>定义：给出存储位置和具体实现细节</li>
-</ul>
-</li>
-<li><p>ub行为：其运行其行为不可预测，例如：</p>
-<ul>
-<li>vector []数组越界</li>
-<li>为初始化的迭代器使用-&gt;和*运算符</li>
-<li>数据竟险</li>
-</ul>
-</li>
-</ul>
+        <p>中午吃饭不知道看什么，打开87版红楼梦重温一下，随着年岁渐长，历事越多，能观察到的细节也更多了。</p>
+<h6 id="首先是结构，电视剧受限于篇幅，第一集浓缩了原著中前三四章的内容。前半段以贾雨村的视角呈现，给大家展示了三个不同层次的家庭生活。"><a href="#首先是结构，电视剧受限于篇幅，第一集浓缩了原著中前三四章的内容。前半段以贾雨村的视角呈现，给大家展示了三个不同层次的家庭生活。" class="headerlink" title="首先是结构，电视剧受限于篇幅，第一集浓缩了原著中前三四章的内容。前半段以贾雨村的视角呈现，给大家展示了三个不同层次的家庭生活。"></a>首先是结构，电视剧受限于篇幅，第一集浓缩了原著中前三四章的内容。前半段以贾雨村的视角呈现，给大家展示了三个不同层次的家庭生活。</h6><p>首先是甄士隐家，属于家境殷实的小乡绅，业余爱好是养养花，逗逗孩子，逛街时给人发点钱，听两句“甄老爷人真好”的赞美。家里有几个仆人，中秋夜宴吃蟹喝酒，可以送出五十两纹银给贾雨村上京赶考，是普通老百姓身边能够的着，距离不远的人。</p>
+<p>![image-20210921160608877](/Users/bytedance/Library/Application Support/typora-user-images/image-20210921160608877.png)</p>
+<p>再然后是林如海家，虽然没有拍摄衣食住行细节，但从林如海的房间里全是书本，我们可以看出这是书香门第。言谈中提到官宦亲友，明显已经和小土财主甄士隐不再是同个阶层了。也让观众有一个衡量的标杆，对阶层差异有了点数。</p>
+<p>![image-20210921161238554](/Users/bytedance/Library/Application Support/typora-user-images/image-20210921161238554.png)</p>
+<p>经过这两层铺垫，这才到煊赫威严的宁荣府。既交代了剧情，也通过层次分明的三个阶层，让观众最快的认识到宁荣国公的威赫，把气场提起来，免得像很多劣质宫廷剧一样，服化道很华丽，但就是让观众觉得皇宫贵族不高贵。通过对比来映衬形象，是很基础但又很高明的设计。</p>
+<p>林黛玉进贾府是书中很经典的一段“步步小心，生怕被人耻笑了她去”，要在富丽堂皇的外家不被人比下去，展露出自己的气质。因此构图时，颦儿穿的是白纱披风，走在中央，其他人都是彩色服装，醒目而素雅，值得注意的是，颦儿是淡紫色上衣，而雪雁也就穿了一身紫色。</p>
+<p>![image-20210921163216316](/Users/bytedance/Library/Application Support/typora-user-images/image-20210921163216316.png)</p>
+<p>贾府这种人家，礼仪是很重要的。颦儿自下轿子后，没有说过一句话，周瑞家的接下她来，她只是抬眼认真看了一眼，就又垂下眼睑。因为她的身份地位，第一句话不应当对下人客气，而应当首先拜见长辈。所以颦儿的第一句话是“外祖母”。对年仅十二岁的颦儿来说，在这举目无亲的异乡，虽未谋面但却和蔼可亲的外祖母是和自己最贴心的人了。一见面就投入外祖母的怀抱中哭泣，还有个细节，给大舅母和二舅母的礼节都被两位舅母立刻扶起了。但正式的拜见却必须工工整整的做完，所以这一拜，是在完成后由嫂子李纨扶起的。</p>
+<p>![image-20210921164046359](/Users/bytedance/Library/Application Support/typora-user-images/image-20210921164046359.png)</p>
+<p>姐妹们介绍完后，凤辣子出场，把“丹唇未启笑先闻”展现的淋漓尽致，就是笑的时间也太长了点…有啥这么好笑的…不过我一直觉得，邓婕真的把王熙凤演活了，由内而外的气派透身而出，谁说个子小的女生就只能走可爱路线的。</p>
+<p>![image-20210921164657006](/Users/bytedance/Library/Application Support/typora-user-images/image-20210921164657006.png)</p>
 
       
     </div>
@@ -368,7 +329,7 @@ public:
       
         <div class="post-tags">
           
-            <a href="/tags/c-study-effective-modern-c/" rel="tag"># c++, study, effective_modern_c++</a>
+            <a href="/tags/%E7%BA%A2%E6%A5%BC%E6%A2%A6-%E9%9D%9E%E6%8A%80%E6%9C%AF/" rel="tag"># 红楼梦 非技术</a>
           
         </div>
       
@@ -381,8 +342,8 @@ public:
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2021/09/05/%E8%AF%97%E7%BB%8F%E6%9C%89%E6%84%9F/" rel="next" title="《国风·邶风·谷风》有感">
-                <i class="fa fa-chevron-left"></i> 《国风·邶风·谷风》有感
+              <a href="/2021/09/15/effective-modern-c-1-%E7%AC%AC%E4%B8%80%E7%AB%A0/" rel="next" title="effective_modern_c++(1)_第一章">
+                <i class="fa fa-chevron-left"></i> effective_modern_c++(1)_第一章
               </a>
             
           </div>
@@ -390,10 +351,6 @@ public:
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2021/09/15/effective-modern-c-1-%E7%AC%AC%E4%B8%80%E7%AB%A0/" rel="prev" title="effective_modern_c++(1)_第一章">
-                effective_modern_c++(1)_第一章 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -520,7 +477,7 @@ public:
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BB%AA%E8%AE%BA"><span class="nav-number">1.</span> <span class="nav-text">绪论</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-6"><a class="nav-link" href="#%E9%A6%96%E5%85%88%E6%98%AF%E7%BB%93%E6%9E%84%EF%BC%8C%E7%94%B5%E8%A7%86%E5%89%A7%E5%8F%97%E9%99%90%E4%BA%8E%E7%AF%87%E5%B9%85%EF%BC%8C%E7%AC%AC%E4%B8%80%E9%9B%86%E6%B5%93%E7%BC%A9%E4%BA%86%E5%8E%9F%E8%91%97%E4%B8%AD%E5%89%8D%E4%B8%89%E5%9B%9B%E7%AB%A0%E7%9A%84%E5%86%85%E5%AE%B9%E3%80%82%E5%89%8D%E5%8D%8A%E6%AE%B5%E4%BB%A5%E8%B4%BE%E9%9B%A8%E6%9D%91%E7%9A%84%E8%A7%86%E8%A7%92%E5%91%88%E7%8E%B0%EF%BC%8C%E7%BB%99%E5%A4%A7%E5%AE%B6%E5%B1%95%E7%A4%BA%E4%BA%86%E4%B8%89%E4%B8%AA%E4%B8%8D%E5%90%8C%E5%B1%82%E6%AC%A1%E7%9A%84%E5%AE%B6%E5%BA%AD%E7%94%9F%E6%B4%BB%E3%80%82"><span class="nav-number">1.</span> <span class="nav-text">首先是结构，电视剧受限于篇幅，第一集浓缩了原著中前三四章的内容。前半段以贾雨村的视角呈现，给大家展示了三个不同层次的家庭生活。</span></a></li></ol></div>
             
 
           </div>
